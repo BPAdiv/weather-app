@@ -37,7 +37,7 @@ npm install
 Create a .env file in the backend directory and add the following line:
 
 ```bash
-WEATHER_API_KEY=your_weather_api_key_here
+WEATHER_API_KEY=your_weather_api_key_here //c4c41e9d16024350b1e122013243103
 ```
 
 After that, start the backend server.
