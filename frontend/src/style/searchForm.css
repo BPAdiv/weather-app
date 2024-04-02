@@ -1,0 +1,63 @@
+.form-heading {
+  font-weight: 300;
+  color: grey;
+  max-width: 320px;
+  margin-bottom: 2rem;
+}
+.input-box {
+  display: flex;
+  background-color: white;
+  border-radius: 0.25rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.city-input-label {
+  color: grey;
+  padding-inline: 1rem;
+  font-size: 1rem;
+}
+.city-input-field {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  padding-inline: 1rem;
+  padding-block: 0.25rem;
+  font-size: 1.25rem;
+  outline: none;
+}
+.city-input-field:focus {
+  background-color: none;
+}
+.input-check-button {
+  border: 0;
+  margin: 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  padding-inline: 1.5rem;
+  padding-block: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 100;
+  font-family: "Heebo";
+  cursor: pointer;
+}
+.location-info {
+  margin-top: auto;
+}
+.location-info span {
+  color: grey;
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+.coordinates {
+  margin-bottom: 5px;
+}
+.coordinates span:first-child {
+  margin-right: 1rem;
+}
+.error-card-text,
+.loading-state {
+  margin-block: auto;
+  min-height: 15rem;
+}
